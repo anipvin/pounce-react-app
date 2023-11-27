@@ -29,7 +29,7 @@ const App = () =>  (
           <Service />
         </div>
       </div>
-      <div className={`bg-gradient-to-b from-purple-600 to-pink-600 ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-gradient-to-b from-testiFirst via-testiVia to-testiLast ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Testimonials />
           <CTA />

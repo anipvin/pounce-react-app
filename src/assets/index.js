@@ -21,6 +21,10 @@ import our from "./our.png"
 import rightArrow from "./rightArrow.png"
 import leftArrow from "./leftArrow.png"
 import darkWhite from "./darkWhite.png"
+import readyBgr from "./readyBgr.png"
+import readyBgr2 from "./readyBgr2.png"
+import readyBgr3 from "./readyBgr3.png"
+
 
 export {
     whitelogo,
@@ -38,5 +42,8 @@ export {
     our,
     rightArrow,
     leftArrow,
-    darkWhite
+    darkWhite,
+    readyBgr,
+    readyBgr2,
+    readyBgr3
 }

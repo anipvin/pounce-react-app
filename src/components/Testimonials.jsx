@@ -22,11 +22,7 @@ const Testimonials = () => {
                 <button><img src={rightArrow} /></button>
               </div>
         </div>
-        
-        
-      
     </div>
-
   </section>    
     
   )
