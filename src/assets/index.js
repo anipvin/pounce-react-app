@@ -18,6 +18,9 @@ import md_x7 from "./md_x7.png"
 import md_x8 from "./md_x8.png"
 import ourServices from "./ourServices.png"
 import our from "./our.png"
+import rightArrow from "./rightArrow.png"
+import leftArrow from "./leftArrow.png"
+import darkWhite from "./darkWhite.png"
 
 export {
     whitelogo,
@@ -33,4 +36,7 @@ export {
     md_x1,md_x2,md_x3,md_x4,md_x5,md_x6,md_x7,md_x8,
     ourServices,
     our,
+    rightArrow,
+    leftArrow,
+    darkWhite
 }

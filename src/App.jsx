@@ -29,10 +29,14 @@ const App = () =>  (
           <Service />
         </div>
       </div>
-      <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-gradient-to-b from-purple-600 to-pink-600 ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Testimonials />
           <CTA />
+        </div>
+      </div>
+      <div className={`bg-black ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>
       </div>
