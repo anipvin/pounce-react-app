@@ -24,6 +24,9 @@ import darkWhite from "./darkWhite.png"
 import readyBgr from "./readyBgr.png"
 import readyBgr2 from "./readyBgr2.png"
 import readyBgr3 from "./readyBgr3.png"
+import facebook from "./facebook.png"
+import instagram from "./instagram.png"
+import linkedIn from "./linkedIn.png"
 
 
 export {
@@ -45,5 +48,8 @@ export {
     darkWhite,
     readyBgr,
     readyBgr2,
-    readyBgr3
+    readyBgr3,
+    facebook,
+    instagram,
+    linkedIn
 }

@@ -11,7 +11,7 @@ const CTA = () => {
                 <img src={readyBgr3} className='w-[600px]' alt='Were Ready. Are You?'/>   
                 
                 <div className="absolute bottom-10 ss:flex hidden md:mr-4 mr-0 justify-center">
-                    <ButtonCTA styles={``}/>
+                    <ButtonCTA />
                 </div>      
             </div>  
     </div>
