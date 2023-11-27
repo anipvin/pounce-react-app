@@ -17,7 +17,15 @@ const App = () =>  (
         <div className={`${styles.boxWidth}`}>
           <Intro />
           <Favorite />
+        </div>
+      </div>
+      <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.workWidth}`}>
           <Work />
+        </div>
+      </div>
+      <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
           <Service />
           <Testimonials />
           <CTA />

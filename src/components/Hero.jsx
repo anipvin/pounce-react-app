@@ -20,7 +20,7 @@ const Hero = () => (
           </div>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={girlBgrTransparent} alt="billing" className="w-[97%] h-[98%] relative z-[5]" />
+        <img src={girlBgrTransparent} alt="billing" className="w-[97%] h-[97%] relative z-[5]" />
       </div>
 
       <div className=' absolute top-0 -left-0 w-full z-5 flex justify-end '>
