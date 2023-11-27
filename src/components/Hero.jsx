@@ -23,7 +23,7 @@ const Hero = () => (
         <img src={girlBgrTransparent} alt="billing" className="w-[97%] h-[97%] relative z-[5]" />
       </div>
 
-      <div className=' absolute top-0 -left-0 w-full z-5 flex justify-end '>
+      <div className='absolute top-0 -left-0 w-full z-5 flex justify-end'>
           <img src={banner} alt="Banner"/>
       </div>
     </section>

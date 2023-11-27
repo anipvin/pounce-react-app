@@ -20,13 +20,17 @@ const App = () =>  (
         </div>
       </div>
       <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.workWidth}`}>
+        <div className={`${styles.fullWidth}`}>
           <Work />
         </div>
       </div>
       <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
+        <div className={`${styles.halfWidth}`}>
           <Service />
+        </div>
+      </div>
+      <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
           <Testimonials />
           <CTA />
           <Footer />

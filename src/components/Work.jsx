@@ -109,7 +109,7 @@ const Work = () => {
 
                 {thumbnails.map((blog)=>
 
-                      <div  className='bg-white'>
+                      <div className='bg-white'>
                           <img className=' w-[389px] object-cover' src={blog.coverImg} />
                       </div>
                   
