@@ -27,23 +27,6 @@ const Hero = () => (
           <img src={banner} alt="Banner"/>
       </div>
     </section>
-  //    <section id="home" className={layout.section}>
-  //    <div className={`layout.sectionInfo z-[100]`}>
-  //      <h2 className={styles.heading2}>
-  //      Find a better card deal <br className="sm:block hidden" /> in few easy steps.
-  //      </h2>
-
-  //      <Scroll styles={`mt-10`}/>
-  //    </div>
-  //    <div className={layout.sectionImgReverse}>
-  //      <img src={girlBgrTransparent} alt="card" className="w-[90%] h-[98%] z-[5]"/>
-  //    </div>
-  //    <div className='absolute top-0 -left-0 w-full z-5 flex justify-end '>
-  //         <img src={banner} alt="Banner"/>
-  //   </div>
-  //  </section>
-
-
   )
 
 export default Hero

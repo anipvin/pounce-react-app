@@ -5,6 +5,9 @@ import banner from "./banner.png"
 import girlBgr from "./girlBgr.png"
 import scrollDown from "./scrollDown.png"
 import girlBgrTransparent from "./girlBgrTransparent.png"
+import pounceWomen from "./pounceWomen.png"
+import pounceTitle from "./pounceTitle.png"
+import favouriteWork from "./favouriteWork.png"
 
 export {
     whitelogo,
@@ -13,5 +16,8 @@ export {
     banner,
     girlBgr,
     scrollDown,
-    girlBgrTransparent
+    girlBgrTransparent,
+    pounceWomen,
+    pounceTitle,
+    favouriteWork
 }
