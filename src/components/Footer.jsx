@@ -1,9 +1,13 @@
 import styles from "../style"
 import { whitelogo, facebook, instagram, linkedIn } from "../assets";
 import Submit from './Submit'
-import Button from "./Button";
 
-const Footer = () => (
+const Footer = () => {
+  
+  const url = "https://gmail.us12.list-manage.com/subscribe/post?u=53250c3fa0caf37328d4f33ad&amp;id=1b4cc9dfc9&amp;f_id=008246e0f0"
+  
+  return(
+  
     
       <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
@@ -43,7 +47,6 @@ const Footer = () => (
                           <Submit />
                         </div>
                     </div>
-                    
                 </form>
             </div>
         </div>  
@@ -61,7 +64,7 @@ const Footer = () => (
     </section>
 
 
-  )
+  )}
 
 
 export default Footer

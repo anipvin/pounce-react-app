@@ -1,7 +1,7 @@
 import styles, { layout } from "../style"
 import { md_x1,md_x2,md_x3,md_x4,md_x5,md_x6,md_x7,md_x8 } from "../assets"
 
-const Work = () => {
+const Work = ({pounces}) => {
 
   //array
   const thumbnails = [
@@ -38,6 +38,7 @@ const Work = () => {
       'coverImg': md_x8,
     }
 ]
+
       return (
 
         <div className='w-full justify-end'>
@@ -59,14 +60,55 @@ const Work = () => {
                 )} */}
 
 
-                {thumbnails.map((blog)=>
+                {/* {thumbnails.map((blog)=>
 
                       <div className='bg-white'>
                           <img className=' w-[389px] object-cover' src={blog.coverImg} />
                       </div>
                   
                   
-                  )}
+                  )} */}
+                   
+                   {pounces.data.map((pounce) => 
+                    <div className='bg-white'>
+                        <img className=' w-[389px] object-cover' src={`http://localhost:1337${pounce.attributes.workThumbnail1.data.attributes.url}`} />
+                    </div>
+                    )}
+                    {pounces.data.map((pounce) => 
+                    <div className='bg-white'>
+                        <img className=' w-[389px] object-cover' src={`http://localhost:1337${pounce.attributes.workThumbnail2.data.attributes.url}`} />
+                    </div>
+                    )}
+                    {pounces.data.map((pounce) => 
+                    <div className='bg-white'>
+                        <img className=' w-[389px] object-cover' src={`http://localhost:1337${pounce.attributes.workThumbnail3.data.attributes.url}`} />
+                    </div>
+                    )}
+                    {pounces.data.map((pounce) => 
+                    <div className='bg-white'>
+                        <img className=' w-[389px] object-cover' src={`http://localhost:1337${pounce.attributes.workThumbnail4.data.attributes.url}`} />
+                    </div>
+                    )}
+                    {pounces.data.map((pounce) => 
+                    <div className='bg-white'>
+                        <img className=' w-[389px] object-cover' src={`http://localhost:1337${pounce.attributes.workThumbnail5.data.attributes.url}`} />
+                    </div>
+                    )}
+                    {pounces.data.map((pounce) => 
+                    <div className='bg-white'>
+                        <img className=' w-[389px] object-cover' src={`http://localhost:1337${pounce.attributes.workThumbnail6.data.attributes.url}`} />
+                    </div>
+                    )}
+                    {pounces.data.map((pounce) => 
+                    <div className='bg-white'>
+                        <img className=' w-[389px] object-cover' src={`http://localhost:1337${pounce.attributes.workThumbnail7.data.attributes.url}`} />
+                    </div>
+                    )}
+                    {pounces.data.map((pounce) => 
+                    <div className='bg-white'>
+                        <img className=' w-[389px] object-cover' src={`http://localhost:1337${pounce.attributes.workThumbnail8.data.attributes.url}`} />
+                    </div>
+                    )}
                 
               </div>
         </div>

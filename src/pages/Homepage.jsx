@@ -36,7 +36,7 @@ const Homepage = ({pounces}) => {
       </div>
       <div className={`bg-gradient-to-b from-testiFirst via-testiVia to-testiLast ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Testimonials />
+          <Testimonials pounces={pounces} />
           <CTA />
         </div>
       </div>
